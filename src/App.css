@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply border-none;
+  }
+
+  .btn-primary {
+    @apply border-none bg-green-400 text-white hover:bg-green-500;
+  }
+}
