@@ -13,9 +13,11 @@ function Hero() {
             está desenvolvendo!
           </p>
 
-          <button className={`btn-primary btn`}>
-            VER PROJETOS
-          </button>
+          <a href="#cards-grid">
+            <button className={`btn-primary btn`}>
+              VER PROJETOS
+            </button>
+          </a>
         </div>
       </div>
     </div>
