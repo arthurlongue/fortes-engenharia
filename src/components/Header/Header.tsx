@@ -38,7 +38,7 @@ function Header() {
         <a className="btn-ghost btn text-xl normal-case">
           <img
             className="h-auto w-36"
-            src="\FORTES_LOGOMARCA.png"
+            src="\avatar.png"
             alt=""
           />
         </a>
