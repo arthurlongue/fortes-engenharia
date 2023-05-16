@@ -1,22 +1,33 @@
 import React from "react"
 
-function CompactCard() {
+function Card({
+  img,
+  tittle,
+  description,
+  badgeEmphasis,
+  badgeEmphasisColor,
+  badges,
+}) {
   return (
     <div className="card m-6  w-72 bg-slate-50 text-slate-600 shadow-xl">
       <figure>
-        <img src="/card-img.jpg" alt="Shoes" />
+        <img src={`${img}`} alt="Shoes" />
       </figure>
       <div className="card-body">
-        <h2 className="card-title">Projeto</h2>
-        <div className="badge border-none bg-blue-600 text-white">
-          NOVO
+        <h2 className="card-title">{tittle}</h2>
+        <div
+          className={`badge border-none text-white ${badgeEmphasisColor} `}>
+          {badgeEmphasis}
         </div>
-        <p>Informações sobre o projeto.</p>
-        <div className="card-actions ">
-          <div className="badge-outline badge">Prédio</div>
-          <div className="badge-outline badge">
-            Fundação
-          </div>
+        <p className="flex-grow-0">{description}</p>
+        <div className="card-actions mb-auto">
+          {badges.map((badge, i) => {
+            return (
+              <div key={i} className="badge-outline badge">
+                {badge}
+              </div>
+            )
+          })}
         </div>
         <button className="btn-sm btn self-end border-none bg-green-400 text-white">
           Acessar
@@ -26,4 +37,4 @@ function CompactCard() {
   )
 }
 
-export default CompactCard
+export default Card

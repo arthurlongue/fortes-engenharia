@@ -26,13 +26,10 @@ function Header() {
             tabIndex={0}
             className="dropdown-content menu rounded-box menu-compact mt-3 w-52 bg-slate-100 p-2 text-slate-700 shadow">
             <li>
-              <a>PLACEHOLDER</a>
+              <a>Fortes Engenharia</a>
             </li>
             <li>
-              <a>PLACEHOLDER</a>
-            </li>
-            <li>
-              <a>PLACEHOLDER</a>
+              <a>Suporte</a>
             </li>
           </ul>
         </div>
