@@ -6,7 +6,7 @@ function Footer() {
       <div>
         <img
           className="w-28"
-          src="src\assets\FORTES_LOGOMARCA.png"
+          src="\FORTES_LOGOMARCA.png"
           alt=""
         />
         <p>

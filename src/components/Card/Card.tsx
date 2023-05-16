@@ -4,7 +4,7 @@ function CompactCard() {
   return (
     <div className="card m-6  w-72 bg-slate-50 text-slate-600 shadow-xl">
       <figure>
-        <img src="src\assets\card-img.jpg" alt="Shoes" />
+        <img src="/card-img.jpg" alt="Shoes" />
       </figure>
       <div className="card-body">
         <h2 className="card-title">Projeto</h2>

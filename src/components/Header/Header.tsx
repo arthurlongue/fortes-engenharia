@@ -41,7 +41,7 @@ function Header() {
         <a className="btn-ghost btn text-xl normal-case">
           <img
             className="h-auto w-36"
-            src="src\assets\FORTES_LOGOMARCA.png"
+            src="\FORTES_LOGOMARCA.png"
             alt=""
           />
         </a>
@@ -87,7 +87,7 @@ function Header() {
             tabIndex={0}
             className="btn-ghost btn-circle avatar btn">
             <div className="w-8 rounded-full">
-              <img src="src\assets\FORTES_LOGOMARCA.png" />
+              <img src="\FORTES_LOGOMARCA.png" />
             </div>
           </label>
           <ul
