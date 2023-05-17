@@ -2,7 +2,7 @@ import React from "react"
 
 function Header() {
   return (
-    <div className="navbar bg-slate-100 text-blue-600">
+    <div className="navbar max-h-14 min-h-[3.5rem] bg-sky-600 text-white drop-shadow-lg">
       <div className="tex navbar-start">
         <div className="dropdown">
           <label
@@ -34,13 +34,20 @@ function Header() {
           </ul>
         </div>
       </div>
+
       <div className="navbar-center">
         <a className="btn-ghost btn text-xl normal-case">
           <img
-            className="h-auto w-36"
-            src="\FORTES_LOGOMARCA.png"
+            className="h-auto w-12"
+            src="/pontoforteslogo.png"
             alt=""
           />
+          {/* <img
+        className="h-auto w-36"
+        src="\FORTES_LOGOMARCA.png"
+        src="/pontoforteslogo.png"
+        alt=""
+      /> */}
         </a>
       </div>
       <div className="navbar-end">
@@ -94,12 +101,12 @@ function Header() {
               <a className="justify-between">
                 Perfil
                 <span className="badge border-none bg-green-400 text-white">
-                  New
+                  Novo
                 </span>
               </a>
             </li>
             <li>
-              <a>Gestão</a>
+              <a>Gerenciar permissões</a>
             </li>
             <li>
               <a>Sair</a>

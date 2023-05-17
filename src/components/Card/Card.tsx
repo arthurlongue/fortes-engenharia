@@ -21,7 +21,7 @@ function Card({
 
   return (
     <div className="card m-6  w-72 bg-slate-50 text-slate-600 shadow-xl">
-      <figure>
+      <figure className="max-h-32">
         <img src={img} alt="Shoes" />
       </figure>
       <div className="card-body">

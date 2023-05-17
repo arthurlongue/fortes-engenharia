@@ -14,4 +14,14 @@ html {
   .btn-primary {
     @apply border-none bg-green-400 text-white hover:bg-green-500;
   }
+
+  .file-input-success::file-selector-button {
+    @apply border-none bg-slate-400  text-white;
+  }
+  .file-input-success:focus {
+    @apply outline-2 outline-offset-1 outline-sky-600;
+  }
+  .file-input-success {
+    @apply border-slate-400 shadow-md;
+  }
 }
