@@ -19,7 +19,7 @@ function Project() {
   return (
     <div className="bg-slate-100 text-white">
       <Header></Header>
-      <div className="container m-auto grid justify-center md:grid-flow-col">
+      <div className="container m-auto grid justify-center sm:grid-flow-col">
         {selectedCard && (
           <Card
             {...selectedCard}
