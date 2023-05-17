@@ -17,9 +17,9 @@ function Project() {
     window.scrollTo(0, 0)
   }, [])
   return (
-    <div className="bg-slate-100 text-white">
+    <div className="bg-sky-600 text-white">
       <Header></Header>
-      <div className="container m-auto grid justify-center sm:grid-flow-col">
+      <div className="container m-auto grid items-center justify-center sm:grid-flow-col">
         {selectedCard && (
           <Card
             {...selectedCard}
@@ -58,9 +58,9 @@ function Project() {
               title={"Infraestrutura"}
               description={"teste teste teste"}></Collapse>
           </div>
-          <div className="Menu flex items-center">
+          {/* <div className="Menu flex items-center">
             <Menu></Menu>
-          </div>
+          </div> */}
         </div>
       </div>
       <Footer></Footer>

@@ -2,7 +2,7 @@ import React from "react"
 
 function Header() {
   return (
-    <div className="navbar max-h-14 min-h-[3.5rem] bg-slate-100 text-sky-600 drop-shadow-lg">
+    <div className="navbar max-h-14 min-h-[3.5rem] bg-sky-600 text-white drop-shadow-lg">
       <div className="tex navbar-start">
         <div className="dropdown">
           <label
