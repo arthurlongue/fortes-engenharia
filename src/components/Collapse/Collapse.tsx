@@ -4,7 +4,7 @@ function Collapse({ index, title, description }) {
   return (
     <div
       tabIndex={index}
-      className="collapse-arrow rounded-box collapse bg-slate-300">
+      className="collapse-arrow rounded-box collapse bg-white text-black shadow-xl">
       <div className="collapse-title text-xl font-medium">
         {title}
       </div>

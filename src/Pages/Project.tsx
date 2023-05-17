@@ -34,6 +34,7 @@ function Project() {
             index={2}
             title={"Geotécnico"}
             description={"teste teste teste"}></Collapse>
+          <br />
           <Menu></Menu>
         </div>
       </div>
