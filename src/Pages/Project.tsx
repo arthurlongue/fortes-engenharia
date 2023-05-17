@@ -6,6 +6,7 @@ import { useParams } from "react-router-dom"
 import cardData from "../cardData"
 import { useEffect } from "react"
 import Collapse from "../components/Collapse/Collapse"
+import Menu from "../components/Menu/Menu"
 
 function Project() {
   const { id } = useParams()
@@ -33,6 +34,7 @@ function Project() {
             index={2}
             title={"Geotécnico"}
             description={"teste teste teste"}></Collapse>
+          <Menu></Menu>
         </div>
       </div>
       <Footer></Footer>
