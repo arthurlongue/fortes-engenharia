@@ -1,5 +1,6 @@
 import React from "react"
 import { useNavigate } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 function Card({
   id,
@@ -9,6 +10,8 @@ function Card({
   badgeEmphasis,
   badgeEmphasisColor,
   badges,
+  button,
+  color,
 }) {
   const navigate = useNavigate()
 
@@ -35,14 +38,31 @@ function Card({
             </div>
           ))}
         </div>
-
-        <button
-          onClick={handleClick}
-          className="btn-sm btn self-end border-none bg-green-400 text-white">
-          Acessar
-        </button>
+        {button === "Voltar" ? (
+          <Link className="flex justify-end" to={"/"}>
+            <Btn
+              onClick={handleClick}
+              color={color}
+              button={button}></Btn>
+          </Link>
+        ) : (
+          <Btn
+            onClick={handleClick}
+            color={color}
+            button={button}></Btn>
+        )}
       </div>
     </div>
+  )
+}
+
+function Btn({ onClick, color, button }) {
+  return (
+    <button
+      onClick={onClick}
+      className={`btn-sm btn self-end border-none bg-green-400 text-white ${color}`}>
+      {button}
+    </button>
   )
 }
 

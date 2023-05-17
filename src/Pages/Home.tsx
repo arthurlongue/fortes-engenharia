@@ -14,7 +14,12 @@ function Home() {
         id="cards-grid"
         className="flex flex-wrap place-content-center bg-sky-600">
         {cardData.map((card) => (
-          <Card key={card.id} {...card} />
+          <Card
+            key={card.id}
+            {...card}
+            button={"Acessar"}
+            color={""}
+          />
         ))}
       </div>
       <Footer></Footer>
