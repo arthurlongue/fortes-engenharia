@@ -38,19 +38,13 @@ function Header() {
 
       <div className="navbar-center">
         <Link to={"/"}>
-          <a className="btn-ghost btn text-xl normal-case">
+          <div className="btn-ghost btn text-xl normal-case">
             <img
               className="h-auto w-12"
               src="/pontoforteslogo.png"
               alt=""
             />
-            {/* <img
-        className="h-auto w-36"
-        src="\FORTES_LOGOMARCA.png"
-        src="/pontoforteslogo.png"
-        alt=""
-      /> */}
-          </a>
+          </div>
         </Link>
       </div>
       <div className="navbar-end">

@@ -16,7 +16,7 @@ function Manager() {
     window.scrollTo(0, 0)
   }, [])
   return (
-    <div className="bg-sky-600 text-white">
+    <div className="bg-green-500 text-white">
       <Header></Header>
       <div className="mt-6 flex justify-center">
         <h1 className="text-4xl font-bold">

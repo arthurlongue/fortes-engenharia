@@ -3,7 +3,7 @@ const cardData = [
     id: 0,
     img: "/card-img-5.jpeg",
     title: "Prédio Industrial - Governador Valadares",
-    description: "Cliente: EDP",
+    description: "EDP",
     badgeEmphasis: "EM ANDAMENTO",
     badgeEmphasisColor: "bg-blue-600",
     badges: [
@@ -16,7 +16,7 @@ const cardData = [
     id: 1,
     img: "/card-img-2.jpeg",
     title: "Sala Elétrica - Marataízes",
-    description: "Cliente: EDP",
+    description: "EDP",
     badgeEmphasis: "PENDÊNCIA",
     badgeEmphasisColor: "bg-pink-600",
     badges: [
@@ -29,7 +29,7 @@ const cardData = [
     id: 2,
     img: "/card-img-4.jpeg",
     title: "Tanque Metálico - São Paulo",
-    description: "Cliente: Cesan",
+    description: "Cesan",
     badgeEmphasis: "PAUSADA",
     badgeEmphasisColor: "bg-red-600",
     badges: [
@@ -42,7 +42,7 @@ const cardData = [
     id: 3,
     img: "/card-img-0.jpg",
     title: "Fundação em Tanque - São Pedro",
-    description: "Cliente: Vale",
+    description: "Vale",
     badgeEmphasis: "CONCLUÍDA",
     badgeEmphasisColor: "bg-purple-600",
     badges: [
@@ -56,7 +56,7 @@ const cardData = [
     id: 4,
     img: "/card-img-2.jpeg",
     title: "Sala Elétrica - Marataízes",
-    description: "Cliente: Vale",
+    description: "Vale",
     badgeEmphasis: "PENDÊNCIA",
     badgeEmphasisColor: "bg-pink-600",
     badges: [
@@ -69,7 +69,7 @@ const cardData = [
     id: 5,
     img: "/card-img-4.jpeg",
     title: "Tanque Metálico - São Paulo",
-    description: "Cliente: Cesan",
+    description: "Cesan",
     badgeEmphasis: "PAUSADA",
     badgeEmphasisColor: "bg-red-600",
     badges: [

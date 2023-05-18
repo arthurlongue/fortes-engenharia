@@ -3,7 +3,7 @@ import React from "react"
 function Hero() {
   return (
     <div className="hero min-h-screen bg-green-50 text-slate-700">
-      <div className="hero-content  rounded-3xl bg-white p-20 text-center">
+      <div className="hero-content  min-w-full bg-white py-20 text-center sm:min-w-0 sm:rounded-3xl sm:p-20">
         <div className="max-w-md">
           <h1 className="text-5xl font-bold">
             Olá Usuário,

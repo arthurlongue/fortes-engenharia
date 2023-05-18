@@ -4,7 +4,7 @@ import ModalDesigner from "../Modal/ModalDesigner"
 
 function CollapseDesigner({ index, title, description }) {
   return (
-    <div className="collapse-arrow collapse rounded-lg bg-white text-slate-600 shadow-xl">
+    <div className="collapse-arrow collapse static rounded-lg bg-white text-slate-600 shadow-xl">
       <input type="checkbox" />
       <div className="collapse-title text-xl font-medium">
         {title}

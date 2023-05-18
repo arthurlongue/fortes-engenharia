@@ -4,15 +4,21 @@ import Footer from "../components/Footer/Footer"
 import Hero from "../components/Hero/Hero"
 import Card from "../components/Card/Card"
 import cardData from "../cardData"
+import ModalProject from "../components/Modal/ModalProject"
 
 function Home() {
   return (
     <div className="bg-slate-100 text-white">
       <Header></Header>
       <Hero></Hero>
+
       <div
         id="cards-grid"
         className="flex flex-wrap place-content-center bg-sky-600">
+        <div className="container my-8 flex min-h-max bg-sky-600">
+          <ModalProject></ModalProject>
+        </div>
+
         {cardData.map((card) => (
           <Card
             key={card.id}

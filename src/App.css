@@ -10,6 +10,18 @@ html {
 }
 
 @layer components {
+  ::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-green-200;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-lg bg-sky-300;
+  }
   .btn {
     @apply border-none;
   }
