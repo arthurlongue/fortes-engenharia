@@ -106,7 +106,7 @@ function Header() {
               </a>
             </li>
             <li>
-              <a>Gerenciar permissões</a>
+              <a>Gerenciar</a>
             </li>
             <li>
               <a>Sair</a>
