@@ -27,4 +27,8 @@ html {
   .file-input-success {
     @apply border-slate-400 shadow-md;
   }
+
+  .modal-middle :where(.modal-box) {
+    @apply rounded-lg;
+  }
 }

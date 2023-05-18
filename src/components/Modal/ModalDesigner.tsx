@@ -14,7 +14,7 @@ function ModalDesigner() {
         className="modal-toggle"
       />
       <div className="modal modal-bottom  sm:modal-middle">
-        <div className="modal-box bg-slate-100 text-slate-600">
+        <div className="modal-box bg-white text-slate-600">
           <h3 className="mb-4 text-lg font-bold">
             Preencha os dados na planilha abaixo:
           </h3>

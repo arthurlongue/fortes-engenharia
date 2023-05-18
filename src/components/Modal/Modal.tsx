@@ -15,7 +15,7 @@ function Modal() {
         className="modal-toggle"
       />
       <div className="modal modal-bottom  sm:modal-middle">
-        <div className="modal-box bg-slate-100 text-slate-600">
+        <div className="modal-box bg-white text-slate-600">
           <h3 className="mb-4 text-lg font-bold">
             Selecione os arquivos que deseja baixar!
           </h3>

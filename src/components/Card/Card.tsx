@@ -23,11 +23,11 @@ function Card({
   }
 
   return (
-    <div className="card m-6 w-72 bg-slate-50 text-slate-600 shadow-xl">
+    <div className="card m-6 w-72 rounded-lg bg-slate-50 text-slate-600 shadow-xl">
       <figure className="max-h-32">
         <img src={img} alt="Shoes" />
       </figure>
-      <div className="card-body pb-4">
+      <div className="card-body py-4">
         <h2 className="card-title">{title}</h2>
         <div
           className={`badge border-none text-white ${badgeEmphasisColor}`}>
@@ -72,7 +72,7 @@ function Btn({ onClick, color, button }) {
   return (
     <button
       onClick={onClick}
-      className={`btn-sm btn mt-4 border-none bg-green-400 text-white shadow-lg ${color} `}>
+      className={`btn-sm btn mt-4 rounded border-none bg-green-400 text-white shadow-lg ${color} `}>
       {button}
     </button>
   )

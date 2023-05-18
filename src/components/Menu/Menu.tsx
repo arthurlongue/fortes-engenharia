@@ -2,7 +2,7 @@ import React from "react"
 
 function Menu() {
   return (
-    <ul className="menu rounded-box w-56 bg-white text-black shadow-xl">
+    <ul className="menu w-56 rounded-lg bg-sky-50 text-slate-700 shadow-xl">
       <li>
         <a
           className="active:bg-green-400"
