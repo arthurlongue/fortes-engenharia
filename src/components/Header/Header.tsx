@@ -27,13 +27,13 @@ function Header() {
             tabIndex={0}
             className="dropdown-content menu rounded-box menu-compact mt-3 w-52 bg-slate-100 p-2 text-slate-700 shadow">
             <li>
+              <a>Área de Clientes</a>
+            </li>
+            <li>
               <a>Fortes Engenharia</a>
             </li>
             <li>
               <a>Suporte</a>
-            </li>
-            <li>
-              <a>Área de Clientes</a>
             </li>
           </ul>
         </div>
