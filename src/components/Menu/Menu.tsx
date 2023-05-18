@@ -2,31 +2,37 @@ import React from "react"
 
 function Menu() {
   return (
-    <ul className="menu rounded-box w-56 bg-white text-black shadow-xl ">
+    <ul className="menu rounded-box w-56 bg-white text-black shadow-xl">
       <li>
         <a
-          href="/avatar.png"
-          className="active:bg-green-400">
-          Infraestrutura
+          className="active:bg-green-400"
+          href="/Planilha.xlsx"
+          download={"/Planilha.xlsx"}>
+          Slide.pptx
         </a>
       </li>
       <li>
-        <a className="active:bg-green-400">Fundação</a>
-      </li>
-      <li>
-        <a className="active:bg-green-400">Geotécnico</a>
-      </li>
-      <li>
-        <a className="active:bg-green-400">Arquitetura</a>
-      </li>
-      <li>
-        <a className="active:bg-green-400">
-          Projeto Estrutural
+        <a
+          className="active:bg-green-400"
+          href="/GovernardorValadares.dwg"
+          download={"/GovernardorValadares.dwg"}>
+          Dados.dwg
         </a>
       </li>
       <li>
-        <a className="active:bg-green-400">
-          Hidrossanitário
+        <a
+          className="active:bg-green-400"
+          href="/apresentação.pdf"
+          download={"/apresentação.pdf"}>
+          Apresentação.pdf
+        </a>
+      </li>
+      <li>
+        <a
+          className="active:bg-green-400"
+          href="/txt.txt"
+          download={"/txt.txt"}>
+          Dados.txt
         </a>
       </li>
     </ul>

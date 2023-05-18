@@ -5,7 +5,7 @@ import Card from "../components/Card/Card"
 import { useParams } from "react-router-dom"
 import cardData from "../cardData"
 import { useEffect } from "react"
-import Collapse from "../components/Collapse/Collapse"
+import CollapseDesigner from "../components/Collapse/CollapseDesigner"
 
 function Designer() {
   const { id } = useParams()
@@ -28,38 +28,20 @@ function Designer() {
         )}
         <div className="container m-6 flex flex-wrap">
           <div className="m-6 flex flex-col gap-1">
-            <Collapse
-              index={0}
-              title={"Arquivos do Cliente"}
-              description={"teste teste teste"}></Collapse>
-            <Collapse
+            <CollapseDesigner
               index={1}
               title={"Fundação"}
-              description={"teste teste teste"}></Collapse>
-            <Collapse
-              index={2}
-              title={"Geotécnico"}
-              description={"teste teste teste"}></Collapse>
-            <Collapse
-              index={3}
-              title={"Arquitetura"}
-              description={"teste teste teste"}></Collapse>
-            <Collapse
-              index={4}
-              title={"Projeto Estrutural"}
-              description={"teste teste teste"}></Collapse>
-            <Collapse
+              description={
+                "Upload de arquivos:"
+              }></CollapseDesigner>
+            <></>
+            <CollapseDesigner
               index={5}
               title={"Hidrossanitário"}
-              description={"teste teste teste"}></Collapse>
-            <Collapse
-              index={6}
-              title={"Infraestrutura"}
-              description={"teste teste teste"}></Collapse>
+              description={
+                "Upload de arquivos:"
+              }></CollapseDesigner>
           </div>
-          {/* <div className="Menu flex items-center">
-            <Menu></Menu>
-          </div> */}
         </div>
       </div>
       <Footer></Footer>

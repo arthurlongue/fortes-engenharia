@@ -37,27 +37,39 @@ function Manager() {
             <Collapse
               index={1}
               title={"Fundação"}
-              description={"download"}></Collapse>
+              description={
+                "Upload de arquivos:"
+              }></Collapse>
             <Collapse
               index={2}
               title={"Geotécnico"}
-              description={"teste teste teste"}></Collapse>
+              description={
+                "Upload de arquivos:"
+              }></Collapse>
             <Collapse
               index={3}
               title={"Arquitetura"}
-              description={"teste teste teste"}></Collapse>
+              description={
+                "Upload de arquivos:"
+              }></Collapse>
             <Collapse
               index={4}
               title={"Projeto Estrutural"}
-              description={"teste teste teste"}></Collapse>
+              description={
+                "Upload de arquivos:"
+              }></Collapse>
             <Collapse
               index={5}
               title={"Hidrossanitário"}
-              description={"teste teste teste"}></Collapse>
+              description={
+                "Upload de arquivos:"
+              }></Collapse>
             <Collapse
               index={6}
               title={"Infraestrutura"}
-              description={"teste teste teste"}></Collapse>
+              description={
+                "Upload de arquivos:"
+              }></Collapse>
           </div>
         </div>
       </div>

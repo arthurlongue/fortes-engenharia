@@ -1,7 +1,8 @@
 import React from "react"
 import Modal from "../Modal/Modal"
+import ModalDesigner from "../Modal/ModalDesigner"
 
-function Collapse({ index, title, description }) {
+function CollapseDesigner({ index, title, description }) {
   return (
     <div className="collapse-arrow rounded-box collapse bg-white text-slate-600 shadow-xl">
       <input type="checkbox" />
@@ -9,6 +10,9 @@ function Collapse({ index, title, description }) {
         {title}
       </div>
       <div className="collapse-content">
+        <ModalDesigner></ModalDesigner>
+        <br />
+        <br />
         <Modal></Modal>
         <p className="mt-2">{description}</p>
         <input
@@ -20,4 +24,4 @@ function Collapse({ index, title, description }) {
   )
 }
 
-export default Collapse
+export default CollapseDesigner

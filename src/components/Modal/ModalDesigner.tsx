@@ -1,13 +1,13 @@
 import React from "react"
 import Menu from "../Menu/Menu"
 
-function Modal() {
+function ModalDesigner() {
   return (
     <>
       <label
         htmlFor="my-modal-6"
         className="btn bg-slate-50 text-slate-600 shadow-lg">
-        download de arquivos
+        preencher planilha
       </label>
       <input
         type="checkbox"
@@ -17,9 +17,12 @@ function Modal() {
       <div className="modal modal-bottom  sm:modal-middle">
         <div className="modal-box bg-slate-100 text-slate-600">
           <h3 className="text-lg font-bold">
-            Selecione os arquivos que deseja baixar!
+            Preencha os dados na planilha abaixo:
           </h3>
-          <Menu></Menu>
+          <div className="flex w-1/2 flex-col">
+            <p>Em construção...</p>
+          </div>
+
           <div className="modal-action">
             <label
               htmlFor="my-modal-6"
@@ -33,4 +36,4 @@ function Modal() {
   )
 }
 
-export default Modal
+export default ModalDesigner
