@@ -18,6 +18,11 @@ function Designer() {
   return (
     <div className="bg-sky-600 text-white">
       <Header></Header>
+      <div className="container mt-4 flex justify-center">
+        <h1 className="text-2xl font-bold">
+          Área do Projetista
+        </h1>
+      </div>
       <div className="container m-auto grid items-center justify-center sm:grid-flow-col">
         {selectedCard && (
           <Card

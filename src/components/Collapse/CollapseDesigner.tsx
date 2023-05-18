@@ -17,7 +17,7 @@ function CollapseDesigner({ index, title, description }) {
         <p className="mt-2">{description}</p>
         <input
           type="file"
-          className="file-input-ghost file-input w-full max-w-xs bg-white shadow-lg"
+          className="file-input-ghost file-input w-full max-w-xs bg-white shadow-lg hover:bg-slate-400 hover:text-white"
         />
       </div>
     </div>

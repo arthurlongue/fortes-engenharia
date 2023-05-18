@@ -72,7 +72,7 @@ function Btn({ onClick, color, button }) {
   return (
     <button
       onClick={onClick}
-      className={`btn-sm btn mt-4 border-none bg-green-400 text-white ${color}`}>
+      className={`btn-sm btn mt-4 border-none bg-green-400 text-white shadow-lg ${color} `}>
       {button}
     </button>
   )
