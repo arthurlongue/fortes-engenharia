@@ -6,14 +6,6 @@ function Menu() {
       <li>
         <a
           className="active:bg-green-400"
-          href="/Planilha.xlsx"
-          download={"/Planilha.xlsx"}>
-          Slide.pptx
-        </a>
-      </li>
-      <li>
-        <a
-          className="active:bg-green-400"
           href="/GovernardorValadares.dwg"
           download={"/GovernardorValadares.dwg"}>
           Dados.dwg
