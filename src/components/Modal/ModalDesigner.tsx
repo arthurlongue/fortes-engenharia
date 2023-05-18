@@ -5,13 +5,13 @@ function ModalDesigner() {
   return (
     <>
       <label
-        htmlFor="my-modal-6"
+        htmlFor="my-modal-7"
         className="btn bg-slate-50 text-slate-600 shadow-lg">
         preencher planilha
       </label>
       <input
         type="checkbox"
-        id="my-modal-6"
+        id="my-modal-7"
         className="modal-toggle"
       />
       <div className="modal modal-bottom  sm:modal-middle">
@@ -25,7 +25,7 @@ function ModalDesigner() {
 
           <div className="modal-action">
             <label
-              htmlFor="my-modal-6"
+              htmlFor="my-modal-7"
               className="btn bg-green-400 text-white">
               Voltar
             </label>
