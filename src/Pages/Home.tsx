@@ -15,7 +15,7 @@ function Home() {
       <div
         id="cards-grid"
         className="flex flex-wrap place-content-center bg-sky-600">
-        <div className="container my-8 flex min-h-max bg-sky-600">
+        <div className="my-8 flex min-h-max w-screen bg-sky-600">
           <ModalProject></ModalProject>
         </div>
 
