@@ -31,11 +31,13 @@ function Manager() {
             <Collapse
               index={0}
               title={"Arquivos do Cliente"}
-              description={"teste teste teste"}></Collapse>
+              description={
+                "Upload de arquivos:"
+              }></Collapse>
             <Collapse
               index={1}
               title={"Fundação"}
-              description={"teste teste teste"}></Collapse>
+              description={"download"}></Collapse>
             <Collapse
               index={2}
               title={"Geotécnico"}
@@ -57,9 +59,6 @@ function Manager() {
               title={"Infraestrutura"}
               description={"teste teste teste"}></Collapse>
           </div>
-          {/* <div className="Menu flex items-center">
-            <Menu></Menu>
-          </div> */}
         </div>
       </div>
       <Footer></Footer>

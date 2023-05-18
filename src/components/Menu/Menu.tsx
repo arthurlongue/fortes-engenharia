@@ -4,7 +4,9 @@ function Menu() {
   return (
     <ul className="menu rounded-box w-56 bg-white text-black shadow-xl ">
       <li>
-        <a className="active:bg-green-400">
+        <a
+          href="/avatar.png"
+          className="active:bg-green-400">
           Infraestrutura
         </a>
       </li>

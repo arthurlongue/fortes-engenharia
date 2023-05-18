@@ -1,4 +1,5 @@
 import React from "react"
+import Modal from "../Modal/Modal"
 
 function Collapse({ index, title, description }) {
   return (
@@ -8,7 +9,8 @@ function Collapse({ index, title, description }) {
         {title}
       </div>
       <div className="collapse-content">
-        <p>{description}</p>
+        <Modal></Modal>
+        <p className="mt-2">{description}</p>
 
         <input
           type="file"
