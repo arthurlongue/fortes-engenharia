@@ -19,11 +19,11 @@ function Designer() {
     <div className="bg-sky-600 text-white">
       <Header></Header>
       <div className="mt-4 flex justify-center">
-        <h1 className="text-2xl font-bold">
+        <h1 className="text-4xl font-bold">
           Área do Projetista
         </h1>
       </div>
-      <div className="container m-auto grid items-center justify-center sm:grid-flow-col">
+      <div className="container m-auto grid items-center justify-center justify-items-center sm:grid-flow-col">
         {selectedCard && (
           <Card
             {...selectedCard}
@@ -31,7 +31,7 @@ function Designer() {
             color={"bg-sky-600"}
           />
         )}
-        <div className="container m-6 flex flex-wrap">
+        <div className="m-6 flex flex-wrap items-center">
           <div className="m-6 flex flex-col gap-1">
             <CollapseDesigner
               index={1}

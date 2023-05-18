@@ -2,8 +2,8 @@ import React from "react"
 
 function Hero() {
   return (
-    <div className="hero min-h-screen bg-slate-100 text-slate-700">
-      <div className="hero-content text-center">
+    <div className="hero min-h-screen bg-green-50 text-slate-700">
+      <div className="hero-content min-w-full bg-white text-center">
         <div className="max-w-md">
           <h1 className="text-5xl font-bold">
             Olá Usuário,
