@@ -13,7 +13,7 @@ function Collapse({ index, title, description }) {
         <p className="mt-2">{description}</p>
         <input
           type="file"
-          className="file-input-ghost file-input w-full max-w-xs bg-slate-400 shadow-lg hover:bg-slate-200"
+          className="file-input-ghost file-input w-full max-w-xs bg-slate-100 shadow-lg hover:bg-slate-50"
         />
       </div>
     </div>
