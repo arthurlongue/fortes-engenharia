@@ -6,7 +6,6 @@ import { useParams } from "react-router-dom"
 import cardData from "../cardData"
 import { useEffect } from "react"
 import Collapse from "../components/Collapse/Collapse"
-import Menu from "../components/Menu/Menu"
 
 function Project() {
   const { id } = useParams()

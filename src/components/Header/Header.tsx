@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 function Header() {
   return (
@@ -36,19 +37,21 @@ function Header() {
       </div>
 
       <div className="navbar-center">
-        <a className="btn-ghost btn text-xl normal-case">
-          <img
-            className="h-auto w-12"
-            src="/pontoforteslogo.png"
-            alt=""
-          />
-          {/* <img
+        <Link to={"/"}>
+          <a className="btn-ghost btn text-xl normal-case">
+            <img
+              className="h-auto w-12"
+              src="/pontoforteslogo.png"
+              alt=""
+            />
+            {/* <img
         className="h-auto w-36"
         src="\FORTES_LOGOMARCA.png"
         src="/pontoforteslogo.png"
         alt=""
       /> */}
-        </a>
+          </a>
+        </Link>
       </div>
       <div className="navbar-end">
         <button className="btn-ghost btn-circle btn">
