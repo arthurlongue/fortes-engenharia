@@ -18,7 +18,7 @@ function Home() {
             key={card.id}
             {...card}
             button={["Equipe Fortes", "Projetista"]}
-            color={["", "bg-slate-600"]}
+            color={["", "bg-sky-600"]}
           />
         ))}
       </div>
