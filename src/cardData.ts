@@ -1,15 +1,15 @@
 const cardData = [
   {
     id: 0,
-    img: "/card-img-0.jpg",
-    title: "Fundação em Tanque - São Pedro",
-    description: "Cliente: Vale",
+    img: "/card-img-5.jpeg",
+    title: "Prédio Industrial - Governador Valadares",
+    description: "Cliente: EDP",
     badgeEmphasis: "EM ANDAMENTO",
     badgeEmphasisColor: "bg-blue-600",
     badges: [
-      "30/06/16",
-      "Gestor - Pedro",
-      "R. Técnico - Gabriel",
+      "30/01/19",
+      "Gestor - Matheus",
+      "R. Técnico - Daniel",
     ],
   },
   {
@@ -40,17 +40,18 @@ const cardData = [
   },
   {
     id: 3,
-    img: "/card-img-5.jpeg",
-    title: "Prédio Industrial - Governador Valadares",
-    description: "Cliente: EDP",
-    badgeEmphasis: "EM ANDAMENTO",
+    img: "/card-img-0.jpg",
+    title: "Fundação em Tanque - São Pedro",
+    description: "Cliente: Vale",
+    badgeEmphasis: "CONCLUÍDA",
     badgeEmphasisColor: "bg-purple-600",
     badges: [
-      "30/01/19",
-      "Gestor - Matheus",
-      "R. Técnico - Daniel",
+      "30/06/16",
+      "Gestor - Pedro",
+      "R. Técnico - Gabriel",
     ],
   },
+
   {
     id: 4,
     img: "/card-img-2.jpeg",

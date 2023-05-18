@@ -7,7 +7,7 @@ import cardData from "../cardData"
 import { useEffect } from "react"
 import Collapse from "../components/Collapse/Collapse"
 
-function Project() {
+function Designer() {
   const { id } = useParams()
   const selectedCard = cardData.find(
     (card) => card.id === Number(id)
@@ -67,4 +67,4 @@ function Project() {
   )
 }
 
-export default Project
+export default Designer

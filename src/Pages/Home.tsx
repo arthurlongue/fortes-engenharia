@@ -17,8 +17,8 @@ function Home() {
           <Card
             key={card.id}
             {...card}
-            button={"Acessar"}
-            color={""}
+            button={["Equipe Fortes", "Projetista"]}
+            color={["", "bg-slate-600"]}
           />
         ))}
       </div>

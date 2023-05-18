@@ -1,6 +1,5 @@
 import React from "react"
 import { useNavigate } from "react-router-dom"
-import { Link } from "react-router-dom"
 
 function Card({
   id,
@@ -15,8 +14,12 @@ function Card({
 }) {
   const navigate = useNavigate()
 
-  const handleClick = () => {
-    navigate(`/project/${id}`)
+  const handleClick = (user) => {
+    navigate(`/${user}/${id}`)
+  }
+
+  const handleGoBack = () => {
+    window.history.back()
   }
 
   return (
@@ -24,7 +27,7 @@ function Card({
       <figure className="max-h-32">
         <img src={img} alt="Shoes" />
       </figure>
-      <div className="card-body">
+      <div className="card-body pb-4">
         <h2 className="card-title">{title}</h2>
         <div
           className={`badge border-none text-white ${badgeEmphasisColor}`}>
@@ -39,17 +42,26 @@ function Card({
           ))}
         </div>
         {button === "Voltar" ? (
-          <Link className="flex justify-end" to={"/"}>
-            <Btn
-              onClick={handleClick}
-              color={color}
-              button={button}></Btn>
-          </Link>
-        ) : (
           <Btn
-            onClick={handleClick}
+            onClick={handleGoBack}
             color={color}
-            button={button}></Btn>
+            button={button}
+          />
+        ) : (
+          <div
+            className="flex flex-col
+           flex-wrap self-end">
+            <Btn
+              onClick={() => handleClick("manager")}
+              color={color[0]}
+              button={button[0]}
+            />
+            <Btn
+              onClick={() => handleClick("designer")}
+              color={color[1]}
+              button={button[1]}
+            />
+          </div>
         )}
       </div>
     </div>
@@ -60,7 +72,7 @@ function Btn({ onClick, color, button }) {
   return (
     <button
       onClick={onClick}
-      className={`btn-sm btn self-end border-none bg-green-400 text-white ${color}`}>
+      className={`btn-sm btn mt-4 border-none bg-green-400 text-white ${color}`}>
       {button}
     </button>
   )
