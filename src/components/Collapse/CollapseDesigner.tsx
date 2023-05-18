@@ -10,10 +10,15 @@ function CollapseDesigner({ index, title, description }) {
         {title}
       </div>
       <div className="collapse-content">
-        <ModalDesigner></ModalDesigner>
+        <ModalDesigner
+          label={"Preencher Planilha"}
+          modalTitle={"Digite abaixo os dados da planilha:"}
+          modalDescription={
+            "Em construção..."
+          }></ModalDesigner>
         <br />
         <br />
-        <Modal></Modal>
+        <Modal text={"Download de Arquivos"}></Modal>
         <p className="mt-2">{description}</p>
         <input
           type="file"

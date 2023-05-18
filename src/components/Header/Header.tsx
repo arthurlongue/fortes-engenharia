@@ -32,6 +32,9 @@ function Header() {
             <li>
               <a>Suporte</a>
             </li>
+            <li>
+              <a>Área de Clientes</a>
+            </li>
           </ul>
         </div>
       </div>

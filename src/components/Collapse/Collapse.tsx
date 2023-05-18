@@ -1,5 +1,6 @@
 import React from "react"
 import Modal from "../Modal/Modal"
+import ModalDesigner from "../Modal/ModalDesigner"
 
 function Collapse({ index, title, description }) {
   return (
@@ -9,7 +10,15 @@ function Collapse({ index, title, description }) {
         {title}
       </div>
       <div className="collapse-content">
-        <Modal></Modal>
+        <ModalDesigner
+          label={"Ver Planilha"}
+          modalTitle={"Selecione a planilha:"}
+          modalDescription={
+            "Em construção..."
+          }></ModalDesigner>
+        <br />
+        <br />
+        <Modal text={"download de arquivos"}></Modal>
         <p className="mt-2">{description}</p>
         <input
           type="file"

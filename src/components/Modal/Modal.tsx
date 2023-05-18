@@ -1,13 +1,13 @@
 import React from "react"
 import Menu from "../Menu/Menu"
 
-function Modal() {
+function Modal({ text }) {
   return (
     <>
       <label
         htmlFor="my-modal-6"
         className="btn bg-sky-600 text-white shadow-lg hover:bg-sky-400">
-        download de arquivos
+        {text}
       </label>
       <input
         type="checkbox"
